@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assessment.Library\**" />
+    <Compile Remove="Assessment.Tests\**" />
+    <EmbeddedResource Remove="Assessment.Library\**" />
+    <EmbeddedResource Remove="Assessment.Tests\**" />
+    <None Remove="Assessment.Library\**" />
+    <None Remove="Assessment.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Assessment.Library\Assessment.Library.csproj" />
+  </ItemGroup>
+
+</Project>
