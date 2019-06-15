@@ -29,7 +29,6 @@ namespace Assessment
                 Console.WriteLine("Press y to continue checking other possibilities else any key to exit");
                 terminator = Console.ReadLine().ToLower();
             }
-
             Console.ReadKey();
         }
     }
