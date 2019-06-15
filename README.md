@@ -9,9 +9,6 @@
 # Run tests
     * Run 'dotnet test'
 
-# Run project
-    * Run 'dotnet run'
-
 # Project behavior and assumptions
     * Requires 'Decimal symbol' to be '.' on your PC regional settings.
     * Can accommodate other limit beside 5 as default: eg can say difference to 10
@@ -22,4 +19,7 @@
         * Does not allowed non-numeric and input out of range
 
 # Decimal numbers are allowed
+
+# Run project
+    * Run 'dotnet run'
     
