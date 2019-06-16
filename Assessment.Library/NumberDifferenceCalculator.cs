@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assessment.Library.Validations;
+using System;
 
 namespace Assessment.Library
 {
@@ -25,7 +26,7 @@ namespace Assessment.Library
         {
             double inputNUmber = this.numberValidator.Validate(number, limit);
 
-            return (Math.Round(limit- inputNUmber, 2));
+            return (Math.Round(limit - inputNUmber, 2));
         }
     }
 }

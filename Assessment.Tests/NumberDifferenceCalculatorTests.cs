@@ -1,4 +1,5 @@
 using Assessment.Library;
+using Assessment.Library.Exception_handling;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -15,7 +16,7 @@ namespace Tests
             var numberDifferenceCalculator = CreateDifferenceCalculator();
 
             //-----------------------Arrange----------------------------
-            var exception = Assert.Throws<FormatException>(()=> numberDifferenceCalculator.GetDifference(userInput));
+            var exception = Assert.Throws<FormatException>(() => numberDifferenceCalculator.GetDifference(userInput));
 
             //-----------------------Arrange----------------------------
             exception.Message.Should().Be("Given input is not convertable to a number");

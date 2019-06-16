@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Assessment.Library.Exception_handling;
+using System;
 
-namespace Assessment.Library
+namespace Assessment.Library.Validations
 {
     public class NumberValidator : INumberValidator
     {

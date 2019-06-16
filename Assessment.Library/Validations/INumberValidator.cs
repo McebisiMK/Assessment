@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assessment.Library
+﻿namespace Assessment.Library.Validations
 {
     public interface INumberValidator
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assessment.Library
+namespace Assessment.Library.Exception_handling
 {
     public class InvalidInputException : Exception
     {
