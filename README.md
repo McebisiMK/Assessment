@@ -11,7 +11,7 @@
 
 # Project behavior and assumptions
     * Requires 'Decimal symbol' to be '.' on your PC regional settings.
-    * Can accommodate other limit beside 5 as default: eg can say difference to 10
+    * Can accommodate other limit beside 5 as default: eg can set difference to 10
         //var numberDifferenceCalculator = new NumberDifferenceCalculator(limit);
         * Change limit on console app and pass it when newing up a service. 
     * Custom exception handling
